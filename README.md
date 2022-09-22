@@ -21,7 +21,7 @@ The features include:
     "threads": 1,
     "send_count": 1
   },
-  "service": "dktrace-dd-agent",
+  "service": "dktrace-pinpoint-agent",
   "dump_size": 1024,
   "random_dump": true,
   "trace": []
@@ -51,7 +51,7 @@ The features include:
   "error": "access deny, status code 100010",
   "tags": [
     {
-      "key": "_dd.origin",
+      "key": "service-type",
       "value": "rum"
     }
   ],
